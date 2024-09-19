@@ -6,4 +6,26 @@ en este repositorio se agrupan las funciones y actividades informaticas realizad
 
 Con el siguiente codigo, puede usted cargar las funciones relativas a los calculos de interes simple:
 
-(pegar chunk)
+´´´{r}
+source("https://raw.githubusercontent.com/OscarVDelatorreTorres/claseMateFinancieras2024/refs/heads/main/formulasInteresSimple.R")
+´´´
+A continuacion se dan ejemplos del uso de las formulas correspondientes:
+
+### Calculo del valor futuro
+
+Para ilustrar el ejemplo se tiene el siguiente ejercico:
+
+$VA$=1,000.00
+$i$=24.00%
+%t%= 7 meses 
+
+Se realizan los calculos:
+´´´{r}
+# Creamos objetos con los valores de entrada:
+ValorActual=1000
+TasaPeriodo=0.02
+nPeriodos=7
+valorFuturo=nombredelafuncion(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
+# Imprimimmos el resultado: 
+valorfuturo
+´´´
