@@ -50,7 +50,7 @@ VF=1140
 r=0.02
 t=7
 # Calculamos el valor presente
-ValorPresente=VF(VF,r,t)
+ValorPresente=VP(VF,r,t)
 # Imprimimmos el resultado: 
 ValorPresente
 ```
