@@ -25,10 +25,10 @@ Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-ValorPresente=1000
-TasaPeriodo=0.02
-nPeriodos=7
-ValorFuturo=VF(VP=ValorPresente,r=TasaPeriodo,t=nPeriodos)
+VP=1000
+r=0.02
+t=7
+ValorFuturo=VF(V,r,t)
 # Imprimimmos el resultado: 
 ValorFuturo
 ```
