@@ -28,7 +28,7 @@ Se realizan los calculos:
 VP=1000
 r=0.02
 t=7
-# Calculamos el valor fúturo
+# Calculamos el valor final
 ValorFinal=VF(VP,r,t)
 # Imprimimmos el resultado: 
 ValorFinal
