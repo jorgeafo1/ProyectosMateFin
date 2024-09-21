@@ -38,7 +38,7 @@ ValorFinal
 
 Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
-$VA$=1,000.00
+$VF$=1,140.00
 $i$=24.00%
 %t%= 7 meses 
 
@@ -49,7 +49,7 @@ Se realizan los calculos:
 ValorFuturo=1140
 TasaPeriodo=0.02
 nPeriodos=7
-ValorPresente=VaFiSi(VF=ValorFuturo,r=TasaPeriodo,t=nPeriodos)
+ValorPresente=VaFiSi(VF,r,t)
 # Imprimimmos el resultado: 
 ValorPresente
 ```
