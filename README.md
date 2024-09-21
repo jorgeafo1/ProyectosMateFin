@@ -28,7 +28,7 @@ Se realizan los calculos:
 ValorPresente=1000
 TasaPeriodo=0.02
 nPeriodos=7
-ValorFuturo=VaFiSi(VP=ValorPresente,r=TasaPeriodo,t=nPeriodos)
+ValorFuturo=VF(VP=ValorPresente,r=TasaPeriodo,t=nPeriodos)
 # Imprimimmos el resultado: 
 ValorFuturo
 ```
