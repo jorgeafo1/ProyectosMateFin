@@ -76,4 +76,25 @@ InteresPagado=r(VF,VP,t)
 InteresPagado
 ```
 
+### Calculo del periodo de tiempo
+
+Para ilustrar el ejemplo se tiene el siguiente ejercico:
+
+$VF$=1,140.00
+$VP$=1,000.00
+%i%= 24.00% 
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VF=1140
+VP=1000
+r=0.02
+# Calculamos el interés del periodo pagado
+PeriodoTiempo=t(VF,VP,r)
+# Imprimimmos el resultado: 
+PeriodoTiempo
+```
+
 
