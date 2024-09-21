@@ -55,4 +55,25 @@ ValorPresente=VP(VF,r,t)
 ValorPresente
 ```
 
+### Calculo del interés del periodo pagado
+
+Para ilustrar el ejemplo se tiene el siguiente ejercico:
+
+$VF$=1,140.00
+$VP$=1,000.00
+%t%= 7 meses 
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+VF=1140
+VP=1000
+t=7
+# Calculamos el interés del periodo pagado
+InteresPagado=r(VF,VA,t)
+# Imprimimmos el resultado: 
+InteresPagado
+```
+
 
