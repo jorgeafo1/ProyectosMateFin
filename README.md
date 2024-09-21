@@ -19,7 +19,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VA$=1,000.00
 $i$=24.00%
-%t%= 7 meses 
+$t$= 7 meses 
 
 Se realizan los calculos:
 
@@ -40,7 +40,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VF$=1,140.00
 $i$=24.00%
-%t%= 7 meses 
+$t$= 7 meses 
 
 Se realizan los calculos:
 
@@ -61,7 +61,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VF$=1,140.00
 $VP$=1,000.00
-%t%= 7 meses 
+$t$= 7 meses 
 
 Se realizan los calculos:
 
@@ -82,7 +82,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VF$=1,140.00
 $VP$=1,000.00
-%i%= 24.00% 
+$i$= 24.00% 
 
 Se realizan los calculos:
 
