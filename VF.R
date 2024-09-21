@@ -3,8 +3,8 @@
 
 # Fórmula de valor fúturo con interés simple
 
-VaFiSi=function(VP, r, t)
-  exit=VP*(1+(r*t)){
+VaFiSi=function(VP, r, t){
+  exit=VP*(1+(r*t))
     
     return(exit)
   }
