@@ -71,7 +71,7 @@ VF=1140
 VP=1000
 t=7
 # Calculamos el interés del periodo pagado
-InteresPagado=r(VF,VA,t)
+InteresPagado=r(VF,VP,t)
 # Imprimimmos el resultado: 
 InteresPagado
 ```
