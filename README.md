@@ -33,3 +33,24 @@ ValorFuturo=VaFiSi(VP=ValorPresente,r=TasaPeriodo,t=nPeriodos)
 ValorFuturo
 ```
 
+### Calculo del valor presente
+
+Para ilustrar el ejemplo se tiene el siguiente ejercico:
+
+$VA$=1,000.00
+$i$=24.00%
+%t%= 7 meses 
+
+Se realizan los calculos:
+
+```{r}
+# Creamos objetos con los valores de entrada:
+ValorFuturo=1140
+TasaPeriodo=0.02
+nPeriodos=7
+ValorPresente=VaPreSi(VF = ValorFuturo, r = TasaPeriodo, t = nPeriodos)
+# Imprimimmos el resultado: 
+ValorFuturo
+```
+
+
