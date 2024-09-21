@@ -46,10 +46,11 @@ Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-ValorFuturo=1140
-TasaPeriodo=0.02
-nPeriodos=7
-ValorPresente=VaFiSi(VF,r,t)
+VF=1140
+r=0.02
+t=7
+# Calculamos el valor presente
+ValorPresente=VF(VF,r,t)
 # Imprimimmos el resultado: 
 ValorPresente
 ```
