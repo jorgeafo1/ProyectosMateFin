@@ -28,7 +28,7 @@ Se realizan los calculos:
 VP=1000
 r=0.02
 t=7
-ValorFuturo=VF(V,r,t)
+ValorFuturo=VF(VA,r,t)
 # Imprimimmos el resultado: 
 ValorFuturo
 ```
