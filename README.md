@@ -50,7 +50,7 @@ TasaPeriodo=0.02
 nPeriodos=7
 ValorPresente=VaPreSi(VF=ValorFuturo,r=TasaPeriodo,t=nPeriodos)
 # Imprimimmos el resultado: 
-ValorFuturo
+ValorPresente
 ```
 
 
