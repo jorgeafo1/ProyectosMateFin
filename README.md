@@ -25,7 +25,7 @@ Se realizan los calculos:
 
 ```{r}
 # Creamos objetos con los valores de entrada:
-ValorActual=1000
+valorPresente=1000
 TasaPeriodo=0.02
 nPeriodos=7
 valorFuturo=VaFiSi(VP=valorPresente,r=tasaPeriodo,t=nPeriodos)
