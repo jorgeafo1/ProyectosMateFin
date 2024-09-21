@@ -18,7 +18,7 @@ A continuacion se dan ejemplos del uso de las formulas correspondientes:
 Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VA$=1,000.00
-$i$=24.00%
+$i$=24.00% anual
 $t$= 7 meses 
 
 Se realizan los calculos:
@@ -39,7 +39,7 @@ ValorFinal
 Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VF$=1,140.00
-$i$=24.00%
+$i$=24.00% anual
 $t$= 7 meses 
 
 Se realizan los calculos:
@@ -82,7 +82,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercico:
 
 $VF$=1,140.00
 $VP$=1,000.00
-$i$= 24.00% 
+$i$= 24.00% anual
 
 Se realizan los calculos:
 
