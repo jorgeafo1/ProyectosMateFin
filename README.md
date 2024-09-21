@@ -29,9 +29,9 @@ VP=1000
 r=0.02
 t=7
 # Calculamos el valor fúturo
-ValorFuturo=VF(VP,r,t)
+ValorFinal=VF(VP,r,t)
 # Imprimimmos el resultado: 
-ValorFuturo
+ValorFinal
 ```
 
 ### Calculo del valor presente
